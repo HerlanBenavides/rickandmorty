@@ -1,0 +1,92 @@
+body{
+  text-align: center;
+  background: url(./assets/space.gif);
+  background-repeat: repeat;
+  background-size: contain;
+  margin: 0px;
+  padding: 0px;
+}
+
+.location-finder-button span, .search{
+  font-size: 23px;
+}
+
+.locationCard-elemets{
+  list-style:none;
+}
+
+.ResidentsCard{
+  width: 350px;
+}
+
+.residents-card-wrapper, .ResidentsCard{
+  display: inline-block;
+}
+
+.ResidentsCard{
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+section{
+  background: rgba(62, 15, 133, 0.4);
+  word-spacing: 10px;
+  color: #e1c699;
+}
+
+section:hover{
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.ResidentsCard-Header-Status{
+  font-size: 30px;
+  color: #e1c699;
+}
+
+.ResidentsCard-Header-Status:hover{
+  text-decoration: underline;
+  
+}
+
+.ResidentsCard-Header-img{
+  border-radius: 25%;
+}
+
+.ResidentsCard-Header-img:hover{
+  border-radius: 50%;
+}
+
+.locationCard-tittle{
+  color:#f4cb23;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.locationCard-elemets{
+background: rgba(62, 15, 133, 0.4);
+  word-spacing: 10px;
+  color: #e1c699;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.suglist{
+  background: rgba(62, 15, 133, 0.9);
+  color: #e1c699;
+  width: 600px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.suglist{
+  display: inline-block;
+  height: 150px;
+  overflow: scroll;
+  scrollbar-color: red yellow;
+}
+
+.suglist li:hover{
+text-shadow: -3px -5px 5px rgba(191, 218, 58, 1);
+}
